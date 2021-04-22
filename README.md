@@ -2,7 +2,9 @@
 
 ## Humane Algorithms
 [Machine Ethics Workshop (Dublin, 2019)](ngg1995.github.io/slides/HA-Dublin)
+
 [Human Reliability Workshop (Glasgow, 2019)](ngg1995.github.io/slides/HA-Glasgow)
+
 [SRA (Arlington, 2019)](ngg1995.github.io/slides/HA-WashingtonDC)
 
 ## Gilding
