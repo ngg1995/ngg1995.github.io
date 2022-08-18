@@ -47,19 +47,17 @@
         {% endif %}
 
     {% if post.research_area and post.ra_link  %}
-    <p>Research Area - {{post.research_area | markdownify | remove: "<p>" | remove: "</p>" %}
-    {% else %}}}</p>
+      <p>Research Area - <a href="{{ base_path }}{{ post.ra_link }}" rel="permalink">{{ post.research_area }}</a> </p>
     {% elsif post.research_area %}
-    <p>Research Area - {{post.research_area | markdownify | remove: "<p>" | remove: "</p>" %}
-    {% else %}}}</p>
+      <p>Research Area - post.research_area </p>
     {% endif %}
     
-    {% if post.citation %}
+    <!-- {% if post.citation %}
       <p>Recommended citation: {{ post.citation }} </p>
     {% endif %}
     {% if post.paperurl %}
       <p>Download <a href=" {{ post.paperurl }} "><u>here</u></a></p>
-    {% endif %}
+    {% endif %} -->
 
   </article>
 </div>

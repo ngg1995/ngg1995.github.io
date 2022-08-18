@@ -2,7 +2,8 @@
 title: "Logistic Regression Through the Veil of Imprecise Data"
 collection: publications
 permalink: /publication/20121-LR-arxiv
-research_area: 'Logistic Regression'
+research_area: 'Imprecise Logistic Regression'
+ra_link: 'ImpLogReg'
 date: 2021-10-25
 venue: 'arXiv:2106.00492 [stat]'
 paperurl: 'http://arxiv.org/abs/2106.00492'
