@@ -49,7 +49,7 @@
     {% if post.research_area and post.ra_link  %}
       <p>Research Area - <a href="{{ base_path }}{{ post.ra_link }}" rel="permalink">{{ post.research_area }}</a> </p>
     {% elsif post.research_area %}
-      <p>Research Area - post.research_area </p>
+      <p>Research Area - {{post.research_area}} </p>
     {% endif %}
     
     <!-- {% if post.citation %}
