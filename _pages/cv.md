@@ -11,21 +11,27 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* B.Sc. (Hons) in Physics with Theoretical Physics, University of Nottingham, 2014-2017
+* Ph.D in Risk and Uncertainty, University of Liverpool, 2018-2022 (Expected submission)
 
 Work experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+## Research/Teaching Assistant
+## _University of Liverpool_
+**_February 2019 - Present_**
+Alongside my PhD, I have been a teaching assistant on two modules helping to write assessments and mark student tests. I also gave guest lectures about my research area to first-year students.
+Since April 2022, I have been employed casually as a research assistant at Liverpool whilst writing my PhD.
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+## **Research Assistant -**_Human-in-the-loop Machine Learning_
+## _Imperial College London_
+**_October 2021 - March 2022_**
+I was employed on a six-month contract to research human-in-the-loop machine learning. During this time, I helped to write a literature review and researched ways to enable inductive logic programming from large datasets with binary features.  
+
+## Graduate Transport Planner 
+## _WSP_
+**November 2017 - September 2018**
+As part of this role, I helped to create computer models that predicted traffic flow and then analysed the outputted data. I also created machine learning models to predict the result of simulations faster. 
+
   
 Skills
 ======
@@ -36,24 +42,9 @@ Skills
   * Sub-skill 2.3
 * Skill 3
 
-Publications
+Awards
 ======
   <ul>{% for post in site.publications %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Talks
-======
-  <ul>{% for post in site.talks %}
-    {% include archive-single-talk-cv.html %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
