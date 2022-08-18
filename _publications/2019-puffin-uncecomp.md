@@ -2,7 +2,7 @@
 title: "Computing With Uncertainty: Introducing Puffin the Automatic Uncertainty Compiler"
 collection: publications
 permalink: /publication/2019-puffin-uncecomp
-excerpt: 'Puffin'
+research_area: 'Puffin'
 date: 2019-06-01
 venue: '3rd ECCOMAS Thematic Conference on Uncertainty Quantification in Computational Sciences and Engineering'
 paperurl: 'https://doi.org/10.7712/120219.6354.18702'

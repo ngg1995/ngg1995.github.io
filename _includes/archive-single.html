@@ -47,9 +47,11 @@
         {% endif %}
 
     {% if post.research_area and post.ra_link  %}
-    <p>Research Area - {{post.research_area | markdownify }}</p>
+    <p>Research Area - {{post.research_area | markdownify | remove: "<p>" | remove: "</p>" %}
+    {% else %}}}</p>
     {% elsif post.research_area %}
-    <p>Research Area - {{post.research_area | markdownify }}</p>
+    <p>Research Area - {{post.research_area | markdownify | remove: "<p>" | remove: "</p>" %}
+    {% else %}}}</p>
     {% endif %}
     
     {% if post.citation %}

@@ -2,7 +2,7 @@
 title: "A Problem in the Bayesian Analysis of Data without Gold Standards"
 collection: publications
 permalink: /publication/2019-winkler-esrel
-excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
+research_area: "Classification/Diagnostics"
 date: 2019-09-20
 venue: '3rd ECCOMAS Thematic Conference on Uncertainty Quantification in Computational Sciences and Engineering'
 paperurl: 'https://www.researchgate.net/profile/Nick-Gray-3/publication/336141063_A_Problem_in_the_Bayesian_Analysis_of_Data_without_Gold_Standards/links/5d920fc892851c33e948fb5a/A-Problem-in-the-Bayesian-Analysis-of-Data-without-Gold-Standards.pdf'

@@ -38,18 +38,15 @@ As part of this role, I helped to create computer models that predicted traffic 
   
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+| Python | ••••• | MATLAB | ••••• | R          | ••• | C++     | •   |
+| ------ | ----- | ------ | ----- | ---------- | --- | ------- | --- |
+| UNIX   | ••••  | Git    | ••••  | JavaScript | ••• | ReactJS | ••• |
 
 Awards
 ======
 - **_Best Presentation_** at 2022 Liverpool Institute for Risk and Uncertainty Showcase Conference
 
-- Received**_Student Merit Award_** and **_International Student Travel Award_** at the 2019 SRA Annual Conference, for a presentation entitled “The Risk of the Inhumane Algorithm”
+- **_Student Merit Award_** and **_International Student Travel Award_** at the 2019 SRA Annual Conference, for a presentation entitled “The Risk of the Inhumane Algorithm”
 
 - Shortlisted for**_Best Student Poster Award_**at the 2019 European Safety and Reliability Conference, for a paper entitled “A Problem in the Bayesian Analysis of Data without Gold Standards”  
 
