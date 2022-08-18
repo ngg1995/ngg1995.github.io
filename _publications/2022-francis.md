@@ -2,7 +2,7 @@
 title: "How High Is High Enough? Assessing Financial Risk for Vertical Farms Using Imprecise Probability"
 collection: publications
 permalink: /publication/2022-Francis
-excerpt: 'Other'
+research_area: 'Other'
 date: 2022-05-08
 venue: 'Sustainability'
 paperurl: 'https://www.mdpi.com/2071-1050/14/9/5676'

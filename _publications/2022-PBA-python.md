@@ -2,7 +2,7 @@
 title: "Probability bounds analysis for Python"
 collection: publications
 permalink: /publication/2019-PBA-python
-research_area: 'This paper is about the number 1. The number 2 is left for future work.'
+research_area: 'Imprecise Probabilities'
 # ra_link: 
 date: 2022-01-30
 venue: 'Software Impacts'
