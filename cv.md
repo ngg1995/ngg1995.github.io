@@ -1,8 +1,7 @@
 ---
-layout: default
+layout: cv
+title: CV – Nick Gray
 ---
-<!-- Include the shared header -->
-{% include header.html %}
 
 # Nicholas Gray
 
