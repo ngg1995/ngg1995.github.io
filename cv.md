@@ -1,6 +1,8 @@
 ---
 layout: default
 ---
+<!-- Include the shared header -->
+{% include header.html %}
 
 # Nicholas Gray
 
