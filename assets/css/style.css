@@ -38,6 +38,7 @@ body {
   margin: 0 auto;
   padding: 2.5rem 2rem;
   line-height: 1.6;
+  padding-top: 4rem;
 }
 
 a {
@@ -338,6 +339,7 @@ article dl dd {
 
   main > section {
     page-break-inside: avoid;
+    scroll-margin-top: 3.5rem;
   }
 }
 
@@ -391,6 +393,16 @@ article dl dd {
 
 nav ul li {
   position: relative;
+  list-style: none;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  max-width: var(--page-width);
+  margin: 0 auto;
 }
 
 .dropdown {
