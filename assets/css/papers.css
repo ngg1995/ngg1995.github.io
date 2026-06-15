@@ -42,11 +42,6 @@
   margin-bottom: 0.55rem;
 }
 
-/* Highlight Nick's name */
-.paper-authors {
-  /* handled via JS below if desired; for now plain text */
-}
-
 /* Abstract toggle */
 details {
   margin-bottom: 0.55rem;
