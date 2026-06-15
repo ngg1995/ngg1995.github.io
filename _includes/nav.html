@@ -1,0 +1,15 @@
+<nav>
+  <ul>
+    <li class="has-dropdown">
+      <a href="{{ '/' | relative_url }}"{% if page.url == '/' or page.url == '/index.html' %} class="active"{% endif %}>CV</a>
+      <ul class="dropdown">
+        <li><a href="{{ '/' | relative_url }}#experience">Experience</a></li>
+        <li><a href="{{ '/' | relative_url }}#education">Education</a></li>
+        <li><a href="{{ '/' | relative_url }}#skills">Skills</a></li>
+        <li><a href="{{ '/' | relative_url }}#awards">Awards</a></li>
+        <li><a href="{{ '/' | relative_url }}#projects">Projects</a></li>
+      </ul>
+    </li>
+    <li><a href="{{ '/papers.html' | relative_url }}"{% if page.url == '/papers.html' %} class="active"{% endif %}>Papers</a></li>
+  </ul>
+</nav>

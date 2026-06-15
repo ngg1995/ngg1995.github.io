@@ -1,0 +1,130 @@
+/* ============================================================
+   papers.css — paper cards and abstract toggles
+   ============================================================ */
+
+.paper-card {
+  border-left: 3px solid var(--accent);
+  padding: 0.9rem 0 0.9rem 1.1rem;
+  margin-bottom: 1.4rem;
+}
+
+.paper-card:last-child {
+  margin-bottom: 0;
+}
+
+.paper-meta {
+  display: flex;
+  align-items: baseline;
+  gap: 0.8rem;
+  margin-bottom: 0.3rem;
+}
+
+.paper-year {
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: var(--accent);
+  font-variant-numeric: tabular-nums;
+  min-width: 2.5rem;
+}
+
+.paper-venue {
+  font-size: 0.85rem;
+  color: var(--light);
+  font-style: italic;
+}
+
+.paper-title {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--dark);
+  margin-bottom: 0.2rem;
+  line-height: 1.4;
+}
+
+.paper-authors {
+  font-size: 0.88rem;
+  color: var(--gray);
+  font-weight: 300;
+  margin-bottom: 0.55rem;
+}
+
+/* Highlight Nick's name */
+.paper-authors {
+  /* handled via JS below if desired; for now plain text */
+}
+
+/* Abstract toggle */
+details {
+  margin-bottom: 0.55rem;
+}
+
+details summary {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--gray);
+  cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  user-select: none;
+}
+
+details summary::-webkit-details-marker {
+  display: none;
+}
+
+details summary::before {
+  content: '▸';
+  color: var(--accent);
+  font-size: 0.7rem;
+  transition: transform 0.15s ease;
+  display: inline-block;
+}
+
+details[open] summary::before {
+  transform: rotate(90deg);
+}
+
+details p {
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+  font-weight: 300;
+  color: var(--text);
+  line-height: 1.65;
+  padding-left: 0.1rem;
+}
+
+/* Links */
+.paper-links {
+  display: flex;
+  gap: 0.6rem;
+  flex-wrap: wrap;
+}
+
+.paper-links a {
+  font-size: 0.78rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--accent);
+  border: 1px solid var(--accent);
+  padding: 0.15rem 0.5rem;
+  border-radius: 3px;
+  text-decoration: none;
+  transition: background 0.15s, color 0.15s;
+}
+
+.paper-links a:hover {
+  background: var(--accent);
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Active nav link */
+nav ul li a.active {
+  color: var(--accent);
+  border-bottom-color: var(--accent);
+}

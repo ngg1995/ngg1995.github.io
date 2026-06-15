@@ -1,0 +1,17 @@
+title: Nicholas Gray
+email: nick.g.gray@gmail.com
+github: ngg1995
+location: Liverpool, UK
+phone: "07525 917415"
+
+description: >-
+  Postdoctoral researcher specialising in AI risk, uncertainty quantification,
+  and responsible AI deployment in clinical settings.
+
+baseurl: ""
+url: "https://ngg1995.github.io"
+
+markdown: kramdown
+theme: null
+plugins:
+  - jekyll-seo-tag
