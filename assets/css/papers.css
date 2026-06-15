@@ -77,7 +77,9 @@ details[open] summary::before {
   transform: rotate(90deg);
 }
 
-details p {
+details p,
+details ul,
+details dl {
   margin-top: 0.5rem;
   font-size: 0.9rem;
   font-weight: 300;
